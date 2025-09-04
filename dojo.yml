@@ -6,3 +6,41 @@ modules:
       dojo: linux~cf6cc015 
       module: linux-basics
 
+  - id: encoding
+    name: Encoding
+    description: This module will teach you some basic encoding algorithms!
+
+    challenges:
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: caesar-cipher-encryption
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: caesar-cipher-decryption
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: caesar-cipher-scripting
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: caesar-cipher-brute-force
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: substitution-cipher-encryption
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: substitution-cipher-decryption
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: base64-encoding
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: base64-decoding
+
