@@ -60,6 +60,7 @@ modules:
   - id: web
     name: Web Hacking
     description: This module is all about hacking websites!
+    challenges:
       - import:
           dojo: cyber-security~59368da7
           module: web
