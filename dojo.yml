@@ -44,3 +44,14 @@ modules:
           module: encoding
           challenge: base64-decoding
 
+  - import:
+      dojo: cyber-security~59368da7
+      module: cyber-history
+
+  - import:
+      dojo: cyber-security~59368da7
+      module: osint
+
+  - import:
+      dojo: cyber-security~59368da7
+      module: forensics
