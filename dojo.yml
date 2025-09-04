@@ -57,26 +57,26 @@ modules:
       module: forensics
 
 
-    - id: web
-      name: Web Hacking
-      description: This module is all about hacking websites!
-        - import:
-            dojo: cyber-security~59368da7
-            module: web
-            challenge: pale-red-horse-squad
-        - import:
-            dojo: cyber-security~59368da7
-            module: web
-            challenge: swiss-army-button
-        - import:
-            dojo: cyber-security~59368da7
-            module: web
-            challenge: get-to-da-choppa
-        - import:
-            dojo: cyber-security~59368da7
-            module: web
-            challenge: am-i-admin
-        - import:
-            dojo: cyber-security~59368da7
-            module: web
-            challenge: am-i-admin-2
+  - id: web
+    name: Web Hacking
+    description: This module is all about hacking websites!
+      - import:
+          dojo: cyber-security~59368da7
+          module: web
+          challenge: pale-red-horse-squad
+      - import:
+          dojo: cyber-security~59368da7
+          module: web
+          challenge: swiss-army-button
+      - import:
+          dojo: cyber-security~59368da7
+          module: web
+          challenge: get-to-da-choppa
+      - import:
+          dojo: cyber-security~59368da7
+          module: web
+          challenge: am-i-admin
+      - import:
+          dojo: cyber-security~59368da7
+          module: web
+          challenge: am-i-admin-2
